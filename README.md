@@ -1,4 +1,4 @@
-📦 PowerShell Software Management Toolkit (Winget)
+<h1 align = "center" >📦 PowerShell Software Management Toolkit (Winget)</h1>
 
 Una herramienta en PowerShell diseñada para la instalación, desinstalación y gestión básica de software en Windows utilizando Winget.
 
@@ -71,17 +71,28 @@ Permisos de administrador recomendados
 El script está organizado en módulos:
 
 🔐 Control de acceso (validación de usuario)
+<br><br>
 📋 Menú principal en bucle
+<br><br>
 📥 Módulo de instalación de software
+<br><br>
 ❌ Módulo de desinstalación
+<br><br>
 🔎 Módulo de consulta de programas
+<br><br>
 ➕ Instalación guiada adicional
+<br><br>
 🚪 Control de salida
+<br><br>
+
+<br><br>
 🛡️ Consideraciones
 Utiliza Winget como gestor de paquetes
 Realiza instalaciones y desinstalaciones en el sistema
 Se recomienda usar con privilegios de administrador
 Puede afectar al sistema si se usa sin conocimiento
+
+<br><br>
 🎯 Objetivo del proyecto
 
 Este toolkit está diseñado para:
