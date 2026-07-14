@@ -1,4 +1,5 @@
 # Copyright (c) 2026 Hugo Arco
+
 function Indentificacionusuarios {
 
     $usuarios = @(
@@ -13,6 +14,7 @@ function Indentificacionusuarios {
     }
     else {
         write-Host ("EL usuario no tiene acceso al sistema ni al script")
+        exit
     }
 }
 
@@ -20,13 +22,13 @@ $opcionmenu = 0
 function menu {
     
     while ($opcionmenu -ne 7) {              
-        Write-Host "1. Inicio" -ForegroundColor DarkGreen             
-        Write-Host "2. Descargar programas (por lista)" -ForegroundColor DarkGreen   
-        Write-Host "3. Descargar programa (por nombre)" -ForegroundColor DarkGreen   
-        Write-Host "4. Borrar programas" -ForegroundColor DarkGreen   
-        Write-Host "5. Comprobar programas" -ForegroundColor DarkGreen   
-        Write-Host "6. Instalar programas adicionales" -ForegroundColor DarkGreen   
-        Write-Host "7. Salir" -ForegroundColor DarkGreen   
+        Write-Host "1. Inicio" -ForegroundColor Yellow             
+        Write-Host "2. Descargar programas (por lista)" -ForegroundColor Yellow   
+        Write-Host "3. Descargar programa (por nombre)" -ForegroundColor Yellow   
+        Write-Host "4. Borrar programas" -ForegroundColor Yellow   
+        Write-Host "5. Comprobar programas" -ForegroundColor Yellow   
+        Write-Host "6. Instalar programas adicionales" -ForegroundColor Yellow   
+        Write-Host "7. Salir" -ForegroundColor Yellow   
 
         $opcionmenu = [int] (read-Host "Introduzca un numero")
         Write-Host "1. Inicio"
