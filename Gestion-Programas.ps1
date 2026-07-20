@@ -1,4 +1,13 @@
-# Copyright (c) 2026 Hugo Arco
+# Copyright
+
+© 2026 Hugo Arcones. All rights reserved.
+
+This project was created by Hugo Arcones.
+
+If you use this project, you must preserve the copyright notice and provide proper attribution.
+
+Author:
+- LinkedIn: https://www.linkedin.com/in/TU-USUARIO/
 
 function Indentificacionusuarios {
 
