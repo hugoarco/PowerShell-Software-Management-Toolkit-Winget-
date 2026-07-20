@@ -6,8 +6,6 @@ This project was created by Hugo Arcones.
 
 If you use this project, you must preserve the copyright notice and provide proper attribution.
 
-Author:
-- LinkedIn: https://www.linkedin.com/in/TU-USUARIO/
 
 function Indentificacionusuarios {
 
